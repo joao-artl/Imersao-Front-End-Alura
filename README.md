@@ -1,2 +1,2 @@
-# Imersao-Front-end-Alura
-Repositório destinado ao projeto desenvolvido durante a imersão Front-end da Alura
+# Imersao-Front-End-Alura
+Repositório destinado ao projeto desenvolvido durante a Imersão Front-End da Alura
