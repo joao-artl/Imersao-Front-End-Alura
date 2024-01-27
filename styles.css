@@ -3,12 +3,12 @@ body{
 }
 
 .sidebar{
-    position: fixed;
-    top: 0;
+    position: fixed; 
+    top: 0; /*posição em relação ao elemento pai*/
     left: 0;
     bottom: 0;
-    padding: 12px;
-    width: 300px;
+    padding: 12px; /*distancia entre elementos internos e bordas*/
+    width: 300px; /*tamanho*/
 }
 .sidebar nav ul{
     margin-top: 20px;
@@ -23,7 +23,7 @@ body{
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-    font-family: "DM Sans", sans-serif;
+    font-family: "DM Sans", sans-serif; /*fonte do texto*/
 }
 .sidebar__navigation{
     background-color: #121212;
@@ -44,7 +44,7 @@ body{
     background-color:#121212;
     border-radius:8px;
     display:flex;
-    justify-content: space-between;
+    justify-content: space-between; /*alinha elementos*/
     flex-direction: column;
     padding:4px 8px;
     color:#b3b3b3;
@@ -162,4 +162,45 @@ body{
     margin:8px;
     padding:8px;
     border-radius:20px;
+}
+
+.spotify-premium {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.spotify-premium.text {
+    flex-shrink: 0;
+}
+.spotify-premium .spotify-premium__title {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.spotify-premium .spotify-premium__subtitle {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+}
+
+.spotify-premium button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
 }
